@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="bg-container">
+        <div class="container-1">
+            <h3 class="cmpny-heading">WINIT</h3>
+            <div class="min-container-1">
+                <p>Musif Ali Khan</p>
+                <select>
+                    <option>me</option>
+                    <option>me2</option>
+                </select>
+            </div>
+        </div>
+        <hr class="hr-line"/>
+        <div>
+            <h2 class="cmpny-heading">Maintain Load Request Template</h2>
+            <p class="cmpny-heading">Home maintain Load Request Template</p>
+        </div>
+        <hr class="hr-line" />
+        <div class="container-2">
+            <div class="min-container-3">
+                <p htmlFor="inputT">Name</p>
+                <input type="search" class="input-type" id="inputT" placeholder="Enter Name"/>
+            </div>
+            <div class="min-container-2">
+                <button>Search</button>
+                <button>Reset</button>
+            </div>
+        </div>
+        <a href="#Addingpage"><button class="add-new-button" id="addNewButton">Add New</button></a>
+        <div class="main-table">
+            <p class="item">SN.no</p>
+            <p class="item">Template Name</p>
+            <p class="item">Template Description</p>
+            <p class="item">No of Items</p>
+            <p class="item">Action</p>
+        </div>
+        <div class="template-results"></div>
+    </div>
+    <div id="Addingpage" class="adding-page">
+        <div class="container-1">
+            <h3 class="cmpny-heading">WINIT</h3>
+            <div class="min-container-1">
+                <p>Musif Ali Khan</p>
+                <select>
+                    <option>me</option>
+                    <option>me2</option>
+                </select>
+            </div>
+        </div>
+        <hr class="hr-line"/>
+        <div>
+            <h2 class="cmpny-heading">Edit Load Template</h2>
+            <p class="cmpny-heading">Home maintain Load Request Template > Edit Load Template</p>
+        </div>
+        <hr class="hr-line" />
+        <div class="section-2-container-1">
+            <div class="item-adding">
+                <p>Template Name</p>
+                <input type="text" class="input-type" placeholder="Enter Name"/>
+            </div>
+            <div class="item-adding">
+                <p>Description</p>
+                <input type="text" class="input-type" placeholder="Enter Template Description" />
+            </div>
+        </div>
+        <div class="cont">
+            <div>
+                <p class="para">Model Quantity for Load Template Items</p>
+                <input type="search" class="input-type p-input" placeholder="search by SKU Code/Name"/>
+            </div>
+            <a  href="#addProductSection"><button class="product-button">Add Product</button></a>
+        </div>
+        <div class="product-table">
+            <input type="checkbox" class="checkbox" />
+            <p class="SKU-code">SKU Code</p>
+            <p class="SKU-name">SKU Name</p>
+            <p class="UOM">UOM</p>
+            <p class="Mon">Mon(qty)</p>
+            <p class="Mon">Tue(qty)</p>
+            <p class="Mon">Wed(qty)</p>
+            <p class="Mon">Thu(qty)</p>
+            <p class="Mon">Fri(qty)</p>
+            <p class="Mon">Sat(qty)</p>
+            <p class="Mon">Sun(qty)</p>
+        </div>
+        <div class="product-results"></div>
+        <div class="btns-container">
+            <button class="B-button">Back</button>
+            <button class="D-button">Delete Selected From List</button>
+            <button class="B-button">Save</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

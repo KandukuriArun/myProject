@@ -1,0 +1,182 @@
+.bg-container {
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.container-1 {
+    display: flex;
+    align-items: space-between;
+
+}
+.min-container-1 {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 40px;
+}
+.cmpny-heading {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+
+.hr-line {
+    height: 10px;
+    color: black;
+    width: 100%;
+}
+.container-2 {
+    display: flex;
+}
+.min-container-2 {
+    margin-left: 200px;
+    margin-right: 40px;
+}
+button {
+    margin-left: 60px;
+    border: 1px solid yellow;
+    height: 40px;
+    width: 80px;
+}
+.min-container-3 {
+    margin-left: 50px;
+}
+.input-type {
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+}
+.add-new-button {
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.main-table {
+    margin-left: 20px;
+    margin-right: 750px;
+    padding-top: 8px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.adding-page {
+    margin-bottom: 350px;
+}
+.item {
+    margin-left: 80px;
+    color: white;
+    text-align: center;
+}
+.section-2-container-1 {
+    display: flex;
+    margin-left: 60px;
+}
+.item-adding {
+    margin-left: 30px;
+}
+.cont {
+    display: flex;
+    margin-top: 40px;
+}
+.para {
+    margin-left: 40px;
+}
+.p-input {
+    margin-left: 40px;
+}
+.product-button {
+    width: 120px;
+}
+.product-table {
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.Mon {
+    margin: auto;
+}
+.SKU-code {
+    margin: auto;
+    text-align: center;
+}
+.SKU-name {
+    margin: auto;
+}
+.checkbox {
+    margin: auto;
+}
+.UOM {
+    margin: auto;
+}
+.btns-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.D-button {
+    width: 200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product-list {
+    margin-bottom: 20px;
+}
+
+.product-item {
+    margin-bottom: 5px;
+}
+.openModalButton {
+    height: 30px;
+    align-items: center;
+    align-self: center;
+}
+.btn-2 {
+    font-family: "Roboto";
+    font-size: 14px;
+}
